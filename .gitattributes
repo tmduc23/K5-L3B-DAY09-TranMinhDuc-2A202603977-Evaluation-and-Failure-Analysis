@@ -1,0 +1,4 @@
+# Eval data is hashed (eval_set_sha): keep LF on every OS so Windows and CI agree.
+src/data/eval/*.jsonl text eol=lf
+src/data/eval/*.json text eol=lf
+src/data/eval/*.csv text eol=lf
